@@ -2,7 +2,7 @@ var elementoClase=document.getElementsByClassName("form-control");
 var elementoSpan=document.getElementsByTagName("span");
 var opcion=document.getElementById("opcion");
 var remember=document.getElementById("recordarme")
-var expresion = /^[a-zA-Z]+(\s*[a-zA-Z]*)*[a-zA-Z]+$/;
+var expresion =  /^([A-Z]{1}[a-zñáéíóú]+[\s]*)+$/;
 var correoExpresion=/\w+@\w+\.+[com]/ ;
 
 function validateForm(){
